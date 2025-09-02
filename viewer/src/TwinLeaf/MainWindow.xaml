@@ -1,0 +1,27 @@
+<Window x:Class="TwinLeaf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:wv2="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        Title="TwinLeaf" Width="1024" Height="700">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <ToolBar Grid.Row="0">
+            <Button Content="◀" Width="32" Click="Back_Click"/>
+            <Button Content="▶" Width="32" Click="Forward_Click"/>
+            <Button Content="⟳" Width="32" Click="Reload_Click"/>
+            <Button Content="🏠" Width="40" Click="Home_Click"/>
+            <Separator/>
+            <TextBox x:Name="AddressBar" Width="600" Margin="8,0" KeyDown="AddressBar_KeyDown"/>
+            <Button Content="Go" Width="40" Click="Go_Click"/>
+            <Separator/>
+            <Button Content="🧹" Width="36" ToolTip="キャッシュを消して再起動"
+                    Click="ClearCache_Click"/>
+        </ToolBar>
+
+        <wv2:WebView2 x:Name="_web" Grid.Row="1"/>
+    </Grid>
+</Window>

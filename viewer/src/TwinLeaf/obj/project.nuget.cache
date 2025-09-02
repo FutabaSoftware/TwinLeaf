@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9x30W7pgdj0=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hiroy\\Desktop\\project-root\\viewer\\src\\TwinLeaf\\TwinLeaf.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hiroy\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.19\\microsoft.net.illink.tasks.8.0.19.nupkg.sha512",
+    "C:\\Users\\hiroy\\.nuget\\packages\\microsoft.web.webview2\\1.0.3405.78\\microsoft.web.webview2.1.0.3405.78.nupkg.sha512"
+  ],
+  "logs": []
+}

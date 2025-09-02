@@ -1,0 +1,25 @@
+**********************
+PowerShell transcript start
+Start time: 20250831145532
+Username: DESKTOP-D6G9TM0\hiroy
+RunAs User: DESKTOP-D6G9TM0\hiroy
+Configuration Name: 
+Machine: DESKTOP-D6G9TM0 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -File .\Apply-Rules-v020.ps1
+Process ID: 27728
+PSVersion: 7.5.2
+PSEdition: Core
+GitCommitId: 7.5.2
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+[OK] Saved: rules_v021.md
+     Updated: rules_latest.md, rules_index.md, introtemplate.md
+**********************
+PowerShell transcript end
+End time: 20250831145532
+**********************

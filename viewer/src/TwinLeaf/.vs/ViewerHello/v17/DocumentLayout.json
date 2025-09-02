@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\hiroy\\Desktop\\project-root\\viewer\\src\\ViewerHello\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAE7AF54-FF71-6933-9487-ECEF2F8BCF4A}|ViewerHello.csproj|c:\\users\\hiroy\\desktop\\project-root\\viewer\\src\\viewerhello\\viewerhello.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AAE7AF54-FF71-6933-9487-ECEF2F8BCF4A}|ViewerHello.csproj|solutionrelative:viewerhello.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ViewerHello",
+              "DocumentMoniker": "C:\\Users\\hiroy\\Desktop\\project-root\\viewer\\src\\ViewerHello\\ViewerHello.csproj",
+              "RelativeDocumentMoniker": "ViewerHello.csproj",
+              "ToolTip": "C:\\Users\\hiroy\\Desktop\\project-root\\viewer\\src\\ViewerHello\\ViewerHello.csproj",
+              "RelativeToolTip": "ViewerHello.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-01T05:15:25.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+Type,Track,Title,Detail,Priority,Status,Owner,Due
+Rule,Rules,Fix v020 scope,Windows限定/保存時刻刻印/ショートカット整備,High,Doing,Futaba,2025-09-03
+Rule,Rules,Rollback shortcut,前版復元の即時実行を検証,High,Todo,Futaba,2025-09-04
+App,Viewer,Stability preset,ANGLE=D3D11/DirectComposition切替をGUI化,High,Doing,Futaba,2025-09-06
+App,Viewer,Crash log & relaunch,簡易ログ採取と1クリック再起動,Med,Todo,Futaba,2025-09-07
+App,Viewer,Installer & README,配布雛形/寄付導線,Med,Todo,Futaba,2025-09-08
+Vtuber,Zundamon,Mora streaming TTS,1–2拍先読み/40–80msチャンク/クロスフェード,High,Doing,Futaba,2025-09-09
+Vtuber,Zundamon,OBS wiring,音声+簡易アバターの最小配線,Med,Todo,Futaba,2025-09-10
+Ops,Common,Demo & tutorial,導入1–2分動画/スクショ,Low,Todo,Futaba,2025-09-12
+

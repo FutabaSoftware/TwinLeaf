@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <!-- DLLではなくEXEを生成し、黒窓を消す -->
+    <OutputType>WinExe</OutputType>
+    <!-- WPFを有効化 -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <!-- 実行ファイル名を指定 -->
+    <AssemblyName>TwinLeaf</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TwinLeaf</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.*" />
+  </ItemGroup>
+  <Target Name="KillRunningTwinLeaf" BeforeTargets="Build">
+    <Exec Command="powershell -NoProfile -ExecutionPolicy Bypass -Command ^&#xA;  &quot;$p=Get-Process TwinLeaf -ErrorAction SilentlyContinue; ^&#xA;    if($p){ ^&#xA;      $exe = Join-Path \&quot;$(MSBuildProjectDirectory)\&quot; \&quot;bin\\$(Configuration)\\$(TargetFramework)\\TwinLeaf.exe\&quot;; ^&#xA;      if(Test-Path $exe){ Start-Process -FilePath $exe -ArgumentList '--exit' -WindowStyle Hidden }; ^&#xA;      Start-Sleep -Milliseconds 800; ^&#xA;      if(Get-Process TwinLeaf -ErrorAction SilentlyContinue){ taskkill /IM TwinLeaf.exe /F &gt;$null 2&gt;&amp;1 } ^&#xA;    }; ^&#xA;    exit 0&quot;" ContinueOnError="true" />
+  </Target>
+</Project>
