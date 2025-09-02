@@ -1,0 +1,39 @@
+発生場所 行:1 文字:325
++ ... ddSeconds(12); rocess TwinLeaf -ErrorAction SilentlyContinue) -and (G ...
++                                                                 ~
+式またはステートメントのトークン ')' を使用できません。
+発生場所 行:1 文字:356
++ ... -ErrorAction SilentlyContinue) -and (Get-Date) -lt $deadline){ Start- ...
++                                                                 ~
+式またはステートメントのトークン ')' を使用できません。
+発生場所 行:1 文字:433
++ ... illiseconds 300 }; ss TwinLeaf -ErrorAction SilentlyContinue){ IM Twi ...
++                                                                 ~
+式またはステートメントのトークン ')' を使用できません。
+発生場所 行:1 文字:434
++ ... lliseconds 300 }; ss TwinLeaf -ErrorAction SilentlyContinue){ IM Twin ...
++                                                                 ~
+ステートメント ブロックまたは型定義に終わりの '}' が存在しません。
+発生場所 行:1 文字:533
++ ... dSeconds(5); -Process TwinLeaf -ErrorAction SilentlyContinue) -and (G ...
++                                                                 ~
+式またはステートメントのトークン ')' を使用できません。
+発生場所 行:1 文字:565
++ ... ErrorAction SilentlyContinue) -and (Get-Date) -lt $deadline2){ Start- ...
++                                                                 ~
+式またはステートメントのトークン ')' を使用できません。
+発生場所 行:1 文字:603
++ ... et-Date) -lt $deadline2){ Start-Sleep -Milliseconds 200 } --- ファイルロック ...
++                                                                  ~
+'-' 演算子に続けて値の式を指定する必要があります。
+発生場所 行:1 文字:604
++ ... eadline2){ Start-Sleep -Milliseconds 200 } --- ファイルロックの解放確認（プローブ） ---
++                                                    ~~~~~~~~~~~~~~~~~~
+式またはステートメントのトークン 'ファイルロックの解放確認（プローブ）' を使用できません。
+発生場所 行:1 文字:566
++ ... d (Get-Date) -lt $deadline2){ Start-Sleep -Milliseconds 200 } --- ファイ ...
++                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+'--' 演算子は、変数またはプロパティに対してのみ機能します。
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+ 

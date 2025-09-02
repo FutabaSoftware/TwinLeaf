@@ -1,0 +1,20 @@
+**********************
+PowerShell transcript start
+Start time: 20250831094243
+Username: DESKTOP-D6G9TM0\hiroy
+RunAs User: DESKTOP-D6G9TM0\hiroy
+Configuration Name: 
+Machine: DESKTOP-D6G9TM0 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -NoLogo -NoExit -ExecutionPolicy Bypass -File C:\Users\hiroy\Desktop\project-root\scripts\Update-Rules.ps1 -DiffOnly
+Process ID: 26552
+PSVersion: 7.5.2
+PSEdition: Core
+GitCommitId: 7.5.2
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+変更概要（1〜数行）を入力してください。空行で終了。

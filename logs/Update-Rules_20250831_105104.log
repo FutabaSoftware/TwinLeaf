@@ -1,0 +1,30 @@
+**********************
+PowerShell transcript start
+Start time: 20250831105104
+Username: DESKTOP-D6G9TM0\hiroy
+RunAs User: DESKTOP-D6G9TM0\hiroy
+Configuration Name: 
+Machine: DESKTOP-D6G9TM0 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -WorkingDirectory ~
+Process ID: 24272
+PSVersion: 7.5.2
+PSEdition: Core
+GitCommitId: 7.5.2
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+ ### 詳詳細細
+-latest 更更新新・・index 再再生生成成
++差差しし戻戻しし確確認認
+
+ ## 変変更更履履歴歴（（概概要要））
+-- v016（（2025-08-31））: v015: 本本番番反反映映
++- v017（（2025-08-31））: Rollback to v014
+**********************
+PowerShell transcript end
+End time: 20250831105104
+**********************

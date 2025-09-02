@@ -1,0 +1,30 @@
+**********************
+PowerShell transcript start
+Start time: 20250831121104
+Username: DESKTOP-D6G9TM0\hiroy
+RunAs User: DESKTOP-D6G9TM0\hiroy
+Configuration Name: 
+Machine: DESKTOP-D6G9TM0 (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -WorkingDirectory ~
+Process ID: 20992
+PSVersion: 7.5.2
+PSEdition: Core
+GitCommitId: 7.5.2
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+ hiroy    project-root   3.11.9   32ms⠀  ]0;pwsh in project-root 7                                              pwsh  12:11:04 8
+ hiroy    project-root   3.11.9   0ms⠀  ]0;pwsh in project-root 7                                               pwsh  12:11:04 8
+PS>$summary = @"
+ソロ運用モード（個人・余暇時間）を追補：自分承認OK（@Futaba）、25分×1マイクロ出荷、Preview→Save優先、ロールバック明文化、初回セットアップ、秘密情報チェック、BML最小指標、Windows+PowerShell限定
+"@
+ hiroy    project-root   3.11.9   0ms⠀  ]0;pwsh in project-root 7                                               pwsh  12:11:04 8
+ hiroy    project-root   3.11.9   0ms⠀  ]0;pwsh in project-root 7                                               pwsh  12:11:04 8
+**********************
+PowerShell transcript end
+End time: 20250831121117
+**********************

@@ -1,0 +1,193 @@
+param(
+  [Parameter(Mandatory=$true)][string]$Root,
+  [switch]$Force,
+  [switch]$Build
+)
+
+$ErrorActionPreference = 'Stop'
+
+function Write-Info($msg){ Write-Host "[INFO] $msg" -ForegroundColor Cyan }
+function Write-Ok($msg){ Write-Host "[OK]  $msg" -ForegroundColor Green }
+function Write-Warn($msg){ Write-Host "[WARN] $msg" -ForegroundColor Yellow }
+function Write-Err($msg){ Write-Host "[ERR] $msg" -ForegroundColor Red }
+
+# -- 1) TwinLeaf プロジェクトの特定 -----------------------------------------
+$rootFull = (Resolve-Path $Root).Path
+Write-Info "Root = $rootFull"
+
+# 既知の配置（推定）
+$candidate = @(
+  Join-Path $rootFull "viewer\src\TwinLeaf\TwinLeaf.csproj"
+)
+
+$proj = $null
+foreach($c in $candidate){
+  if(Test-Path $c){ $proj = $c; break }
+}
+if(-not $proj){
+  # フォールバック: 全体検索（最初の TwinLeaf.csproj）
+  $hit = Get-ChildItem -Recurse -Path $rootFull -Filter TwinLeaf.csproj -ErrorAction SilentlyContinue | Select-Object -First 1
+  if($hit){ $proj = $hit.FullName }
+}
+
+if(-not $proj){
+  Write-Err "TwinLeaf.csproj が見つかりません。-Root を確認してください。"
+  exit 1
+}
+
+$projDir = Split-Path $proj -Parent
+Write-Ok ("Project = {0}" -f $proj)
+
+# -- 2) 生成先ディレクトリ ---------------------------------------------------
+$utilsDir   = Join-Path $projDir "Utils"
+$interopDir = Join-Path $projDir "Interop"
+New-Item -ItemType Directory -Force $utilsDir   | Out-Null
+New-Item -ItemType Directory -Force $interopDir | Out-Null
+
+# -- 3) 生成する C# ファイルの本文 ------------------------------------------
+# Utils/Logger.cs
+$loggerPath = Join-Path $utilsDir "Logger.cs"
+$loggerSrc = @'
+using System;
+using System.IO;
+using System.Threading;
+
+namespace TwinLeaf.Utils
+{
+    internal static class Logger
+    {
+        private static readonly object _lock = new object();
+        private static readonly string LogDir =
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData), "TwinLeaf");
+        private static readonly string LogPath = Path.Combine(LogDir, "run.log");
+
+        public static string LogFilePath => LogPath;
+
+        public static void Info(string message)  => Write("INFO",  message);
+        public static void Warn(string message)  => Write("WARN",  message);
+        public static void Error(string message) => Write("ERROR", message);
+
+        public static void Error(Exception ex, string? message = null)
+        {
+            var body = (message == null) ? ex.ToString() : (message + " | " + ex);
+            Write("ERROR", body);
+        }
+
+        private static void Write(string level, string message)
+        {
+            try
+            {
+                Directory.CreateDirectory(LogDir);
+                var line = $"[{DateTime.Now:yyyy-MM-dd HH:mm:ss}] {level} {message}";
+                lock (_lock)
+                {
+                    File.AppendAllText(LogPath, line + Environment.NewLine);
+                }
+            }
+            catch
+            {
+                // ログ失敗は黙殺（アプリ動作を止めない）
+            }
+        }
+    }
+}
+'@
+
+# Interop/SingleInstance.cs（Mutex だけの軽量版：既存と衝突しない安全実装）
+$singlePath = Join-Path $interopDir "SingleInstance.cs"
+$singleSrc = @'
+using System;
+using System.Threading;
+
+namespace TwinLeaf.Interop
+{
+    // シンプルな単一インスタンス確保ヘルパー（Mutexのみ）
+    // 既に同等の仕組みがある場合は、このクラスを使わなくてもOK。
+    internal static class SingleInstance
+    {
+        private const string MutexName = "TwinLeaf_SingleInstance_Mutex";
+
+        public static bool TryAcquire(out Mutex? mutex)
+        {
+            mutex = null;
+            try
+            {
+                bool createdNew;
+                var m = new Mutex(true, MutexName, out createdNew);
+                if (!createdNew)
+                {
+                    m.Dispose();
+                    return false;
+                }
+                mutex = m;
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public static void Release(Mutex? mutex)
+        {
+            try
+            {
+                if (mutex != null)
+                {
+                    mutex.ReleaseMutex();
+                    mutex.Dispose();
+                }
+            }
+            catch
+            {
+                // 無視
+            }
+        }
+    }
+}
+'@
+
+# -- 4) ファイル出力（既存があれば -Force 時のみ上書き） ----------------------
+function Write-IfNeeded([string]$path, [string]$content){
+  if(Test-Path $path){
+    if($Force){
+      Set-Content -LiteralPath $path -Value $content -Encoding UTF8
+      Write-Ok ("Overwrite: {0}" -f $path)
+    } else {
+      Write-Warn ("Skip (exists): {0}  （上書きは -Force）" -f $path)
+    }
+  } else {
+    Set-Content -LiteralPath $path -Value $content -Encoding UTF8
+    Write-Ok ("Create: {0}" -f $path)
+  }
+}
+
+Write-IfNeeded -path $loggerPath -content $loggerSrc
+Write-IfNeeded -path $singlePath -content $singleSrc
+
+# -- 5) ビルド（任意） -------------------------------------------------------
+if($Build){
+  Write-Info "dotnet build (Release)"
+  $psi = @{
+    FilePath = "dotnet"
+    ArgumentList = @("build", "`"$proj`"", "-c", "Release")
+    NoNewWindow = $true
+    Wait = $true
+    PassThru = $true
+  }
+  $p = Start-Process @psi
+  if($p.ExitCode -ne 0){
+    Write-Err ("dotnet build failed (ExitCode={0})" -f $p.ExitCode)
+    exit $p.ExitCode
+  }
+  Write-Ok "Build succeeded."
+}
+
+# -- 6) まとめ ----------------------------------------------------------------
+Write-Host ""
+Write-Host "SUMMARY" -ForegroundColor DarkCyan
+Write-Host "  Project : $proj"
+Write-Host "  Files   :"
+Write-Host ("    - {0}" -f $loggerPath)
+Write-Host ("    - {0}" -f $singlePath)
+if($Build){ Write-Host "  Build   : Release (succeeded)" } else { Write-Host "  Build   : (skipped)" }

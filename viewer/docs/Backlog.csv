@@ -1,0 +1,4 @@
+"Type","Track","Title","Detail","Priority","Status","Owner","Due"
+"App","Viewer","Stability preset","ANGLE=D3D11/DirectComposition切替をGUI化","High","Doing","Futaba","2025-09-06"
+"App","Viewer","Crash log & relaunch","簡易ログ採取と1クリック再起動","Med","Todo","Futaba","2025-09-07"
+"App","Viewer","Installer & README","配布雛形/寄付導線","Med","Todo","Futaba","2025-09-08"

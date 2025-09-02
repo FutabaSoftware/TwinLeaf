@@ -1,0 +1,1640 @@
+Set-PSReadLineOption: C:\Users\hiroy\Documents\PowerShell\profile.ps1:41
+Line |
+  41 |    Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The predictive suggestion feature cannot be enabled because the console output doesn't support virtual terminal
+     | processing or it's redirected.
+Set-PSReadLineOption: C:\Users\hiroy\Documents\PowerShell\profile.ps1:42
+Line |
+  42 |    Set-PSReadLineOption -PredictionViewStyle ListView
+     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | ハンドルが無効です。
+[INFO] 最新ZIP: 30b24d3358bb1933db5db7be1ccb0e1586cd63620a864d667a7ab6e00f3266b5-2025-08-29-18-34-57-32f2af99c5074e3fb33e7f986d0d82fb.zip
+[INFO] 変換開始: Source=C:\Users\hiroy\AppData\Local\Temp\chatgpt_export_20250830_040120  Out=C:\Users\hiroy\Desktop\project-root\docs
+Set-PSReadLineOption: C:\Users\hiroy\Documents\PowerShell\profile.ps1:41
+Line |
+  41 |    Set-PSReadLineOption -PredictionSource HistoryAndPlugin
+     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The predictive suggestion feature cannot be enabled because the console output doesn't support virtual terminal
+     | processing or it's redirected.
+Set-PSReadLineOption: C:\Users\hiroy\Documents\PowerShell\profile.ps1:42
+Line |
+  42 |    Set-PSReadLineOption -PredictionViewStyle ListView
+     |    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | ハンドルが無効です。
+Input : C:\Users\hiroy\AppData\Local\Temp\chatgpt_export_20250830_040120
+OutDir: C:\Users\hiroy\Desktop\project-root\docs
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756465152.35451" to type "System.DateTime". Error: "String
+     | '1756465152.35451' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756465152.35451" to type "System.DateTime". Error: "String
+     | '1756465152.35451' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-MultCloudの代替ソフト.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756486577.5187" to type "System.DateTime". Error: "String
+     | '1756486577.5187' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756486577.5187" to type "System.DateTime". Error: "String
+     | '1756486577.5187' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-画像コピペ範囲の不具合.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756452359.475" to type "System.DateTime". Error: "String
+     | '1756452359.475' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756452359.475" to type "System.DateTime". Error: "String
+     | '1756452359.475' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ルール保存方法提案.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756472531.78502" to type "System.DateTime". Error: "String
+     | '1756472531.78502' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756472531.78502" to type "System.DateTime". Error: "String
+     | '1756472531.78502' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Thinkingモード制限について.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756464529.11292" to type "System.DateTime". Error: "String
+     | '1756464529.11292' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756464529.11292" to type "System.DateTime". Error: "String
+     | '1756464529.11292' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-OneDrive-メリット-デメリット.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756463642.2073" to type "System.DateTime". Error: "String
+     | '1756463642.2073' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756463642.2073" to type "System.DateTime". Error: "String
+     | '1756463642.2073' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ファイル検索の提案.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756460069.87311" to type "System.DateTime". Error: "String
+     | '1756460069.87311' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756460069.87311" to type "System.DateTime". Error: "String
+     | '1756460069.87311' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Dropbox-ファイル検索.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756449671.08668" to type "System.DateTime". Error: "String
+     | '1756449671.08668' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756449671.08668" to type "System.DateTime". Error: "String
+     | '1756449671.08668' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-スレッド間参照不可.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756404711.24202" to type "System.DateTime". Error: "String
+     | '1756404711.24202' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756404711.24202" to type "System.DateTime". Error: "String
+     | '1756404711.24202' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ChatGPT駆動開発ガイド.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756451086.71308" to type "System.DateTime". Error: "String
+     | '1756451086.71308' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756451086.71308" to type "System.DateTime". Error: "String
+     | '1756451086.71308' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ソフト開発ガイド整理.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756450473.00445" to type "System.DateTime". Error: "String
+     | '1756450473.00445' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756450473.00445" to type "System.DateTime". Error: "String
+     | '1756450473.00445' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-キャンバスに保存可能か.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756400403.64131" to type "System.DateTime". Error: "String
+     | '1756400403.64131' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756400403.64131" to type "System.DateTime". Error: "String
+     | '1756400403.64131' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ソフト開発効率化方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756382282.91562" to type "System.DateTime". Error: "String
+     | '1756382282.91562' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756382282.91562" to type "System.DateTime". Error: "String
+     | '1756382282.91562' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ChatGPTのプロジェクトとは.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756337756.22725" to type "System.DateTime". Error: "String
+     | '1756337756.22725' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756337756.22725" to type "System.DateTime". Error: "String
+     | '1756337756.22725' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-公開の可否と注意点.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755932913.25451" to type "System.DateTime". Error: "String
+     | '1755932913.25451' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755932913.25451" to type "System.DateTime". Error: "String
+     | '1755932913.25451' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-稼ぎ方提案.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756200430.70371" to type "System.DateTime". Error: "String
+     | '1756200430.70371' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756200430.70371" to type "System.DateTime". Error: "String
+     | '1756200430.70371' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-個人制作ツールと収益化.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755950168.20146" to type "System.DateTime". Error: "String
+     | '1755950168.20146' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755950168.20146" to type "System.DateTime". Error: "String
+     | '1755950168.20146' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ChatGPTフリーズ対策.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756311345.81477" to type "System.DateTime". Error: "String
+     | '1756311345.81477' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756311345.81477" to type "System.DateTime". Error: "String
+     | '1756311345.81477' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-新しいPowerShell起動方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756138080.15483" to type "System.DateTime". Error: "String
+     | '1756138080.15483' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756138080.15483" to type "System.DateTime". Error: "String
+     | '1756138080.15483' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ChatGPT処理中確認方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756360300.91566" to type "System.DateTime". Error: "String
+     | '1756360300.91566' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756360300.91566" to type "System.DateTime". Error: "String
+     | '1756360300.91566' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-iCAD-SX標準部品登録方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756218694.11928" to type "System.DateTime". Error: "String
+     | '1756218694.11928' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756218694.11928" to type "System.DateTime". Error: "String
+     | '1756218694.11928' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ソフトウェアライセンス解説.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756204507.47804" to type "System.DateTime". Error: "String
+     | '1756204507.47804' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756204507.47804" to type "System.DateTime". Error: "String
+     | '1756204507.47804' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-会話の移行方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754616984.99039" to type "System.DateTime". Error: "String
+     | '1754616984.99039' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754616984.99039" to type "System.DateTime". Error: "String
+     | '1754616984.99039' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-管路長さ修正提案.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755822997.46499" to type "System.DateTime". Error: "String
+     | '1755822997.46499' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755822997.46499" to type "System.DateTime". Error: "String
+     | '1755822997.46499' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-iCAD-スイープ方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756171519.10771" to type "System.DateTime". Error: "String
+     | '1756171519.10771' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756171519.10771" to type "System.DateTime". Error: "String
+     | '1756171519.10771' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-icad-2D作成方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756135295.17048" to type "System.DateTime". Error: "String
+     | '1756135295.17048' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756135295.17048" to type "System.DateTime". Error: "String
+     | '1756135295.17048' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-最大効率の設定方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756120812.48072" to type "System.DateTime". Error: "String
+     | '1756120812.48072' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1756120812.48072" to type "System.DateTime". Error: "String
+     | '1756120812.48072' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-画像サイズ縮小.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755509288.44316" to type "System.DateTime". Error: "String
+     | '1755509288.44316' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755509288.44316" to type "System.DateTime". Error: "String
+     | '1755509288.44316' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-まとめ方提案.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755977644.23522" to type "System.DateTime". Error: "String
+     | '1755977644.23522' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755977644.23522" to type "System.DateTime". Error: "String
+     | '1755977644.23522' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-最高速で動作させる方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755816781.83615" to type "System.DateTime". Error: "String
+     | '1755816781.83615' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755816781.83615" to type "System.DateTime". Error: "String
+     | '1755816781.83615' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-U-04エラー対処法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755643788.3789" to type "System.DateTime". Error: "String
+     | '1755643788.3789' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755643788.3789" to type "System.DateTime". Error: "String
+     | '1755643788.3789' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-iPhone銀行口座比較.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755590001.75589" to type "System.DateTime". Error: "String
+     | '1755590001.75589' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755590001.75589" to type "System.DateTime". Error: "String
+     | '1755590001.75589' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-1.5SとAサイズ比較.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755532052.26752" to type "System.DateTime". Error: "String
+     | '1755532052.26752' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755532052.26752" to type "System.DateTime". Error: "String
+     | '1755532052.26752' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-無料ブラックカードはない.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754788735.38858" to type "System.DateTime". Error: "String
+     | '1754788735.38858' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754788735.38858" to type "System.DateTime". Error: "String
+     | '1754788735.38858' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-朝イチ設定狙い攻略.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755479232.33401" to type "System.DateTime". Error: "String
+     | '1755479232.33401' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755479232.33401" to type "System.DateTime". Error: "String
+     | '1755479232.33401' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-配管製作図チェック.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755442004.01681" to type "System.DateTime". Error: "String
+     | '1755442004.01681' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755442004.01681" to type "System.DateTime". Error: "String
+     | '1755442004.01681' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Windows10不安定動作原因.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755191239.44571" to type "System.DateTime". Error: "String
+     | '1755191239.44571' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1755191239.44571" to type "System.DateTime". Error: "String
+     | '1755191239.44571' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-エクセル再現ファイル.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754712728.63211" to type "System.DateTime". Error: "String
+     | '1754712728.63211' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754712728.63211" to type "System.DateTime". Error: "String
+     | '1754712728.63211' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ハート点滅の意味.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754669168.47162" to type "System.DateTime". Error: "String
+     | '1754669168.47162' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754669168.47162" to type "System.DateTime". Error: "String
+     | '1754669168.47162' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-エアコン水漏れ原因.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754646244.25982" to type "System.DateTime". Error: "String
+     | '1754646244.25982' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754646244.25982" to type "System.DateTime". Error: "String
+     | '1754646244.25982' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-池袋-強いパチンコ店.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754399853.35228" to type "System.DateTime". Error: "String
+     | '1754399853.35228' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754399853.35228" to type "System.DateTime". Error: "String
+     | '1754399853.35228' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-最新モデルの比較.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754467648.58588" to type "System.DateTime". Error: "String
+     | '1754467648.58588' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754467648.58588" to type "System.DateTime". Error: "String
+     | '1754467648.58588' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-AutoCAD-雲マークコマンド.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754463034.14814" to type "System.DateTime". Error: "String
+     | '1754463034.14814' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754463034.14814" to type "System.DateTime". Error: "String
+     | '1754463034.14814' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-現調資料の説明.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754444052.93987" to type "System.DateTime". Error: "String
+     | '1754444052.93987' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754444052.93987" to type "System.DateTime". Error: "String
+     | '1754444052.93987' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-V8L4をV8L3で保存.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754454271.98571" to type "System.DateTime". Error: "String
+     | '1754454271.98571' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754454271.98571" to type "System.DateTime". Error: "String
+     | '1754454271.98571' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-AutoCAD-ブロック解除方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754442164.33234" to type "System.DateTime". Error: "String
+     | '1754442164.33234' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754442164.33234" to type "System.DateTime". Error: "String
+     | '1754442164.33234' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-DWG図面-修正方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754412727.86158" to type "System.DateTime". Error: "String
+     | '1754412727.86158' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754412727.86158" to type "System.DateTime". Error: "String
+     | '1754412727.86158' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-音声文字起こし手順.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754406961.17984" to type "System.DateTime". Error: "String
+     | '1754406961.17984' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754406961.17984" to type "System.DateTime". Error: "String
+     | '1754406961.17984' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-議事録作成方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754372470.14749" to type "System.DateTime". Error: "String
+     | '1754372470.14749' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754372470.14749" to type "System.DateTime". Error: "String
+     | '1754372470.14749' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-iCAD線の太さ設定.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754357647.78117" to type "System.DateTime". Error: "String
+     | '1754357647.78117' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754357647.78117" to type "System.DateTime". Error: "String
+     | '1754357647.78117' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-文字サイズ変更方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754350288.66528" to type "System.DateTime". Error: "String
+     | '1754350288.66528' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754350288.66528" to type "System.DateTime". Error: "String
+     | '1754350288.66528' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ChatGPT有料版のメリット.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754325072.8958" to type "System.DateTime". Error: "String
+     | '1754325072.8958' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754325072.8958" to type "System.DateTime". Error: "String
+     | '1754325072.8958' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-有料版メリット説明.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754289089.15689" to type "System.DateTime". Error: "String
+     | '1754289089.15689' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754289089.15689" to type "System.DateTime". Error: "String
+     | '1754289089.15689' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-URL追加方法の提案.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754288487.73195" to type "System.DateTime". Error: "String
+     | '1754288487.73195' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1754288487.73195" to type "System.DateTime". Error: "String
+     | '1754288487.73195' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Excel数式設定方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1753697103.43459" to type "System.DateTime". Error: "String
+     | '1753697103.43459' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1753697103.43459" to type "System.DateTime". Error: "String
+     | '1753697103.43459' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-BREXA上場状況.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699186910.81359" to type "System.DateTime". Error: "String
+     | '1699186910.81359' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699186910.81359" to type "System.DateTime". Error: "String
+     | '1699186910.81359' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Summarize-User-Request.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1751534593.49239" to type "System.DateTime". Error: "String
+     | '1751534593.49239' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1751534593.49239" to type "System.DateTime". Error: "String
+     | '1751534593.49239' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-スキル属性上書き問題.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750575423.60496" to type "System.DateTime". Error: "String
+     | '1750575423.60496' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750575423.60496" to type "System.DateTime". Error: "String
+     | '1750575423.60496' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-全角カタカナ変換.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750395762.37125" to type "System.DateTime". Error: "String
+     | '1750395762.37125' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750395762.37125" to type "System.DateTime". Error: "String
+     | '1750395762.37125' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ツリー構造整理手順.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750394430.58751" to type "System.DateTime". Error: "String
+     | '1750394430.58751' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750394430.58751" to type "System.DateTime". Error: "String
+     | '1750394430.58751' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-F列データ整理依頼.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750328601.61211" to type "System.DateTime". Error: "String
+     | '1750328601.61211' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750328601.61211" to type "System.DateTime". Error: "String
+     | '1750328601.61211' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-リバーフィールド株式会社概要.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750261812.74314" to type "System.DateTime". Error: "String
+     | '1750261812.74314' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750261812.74314" to type "System.DateTime". Error: "String
+     | '1750261812.74314' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-岩井ファルマテック概要.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750261768.44199" to type "System.DateTime". Error: "String
+     | '1750261768.44199' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750261768.44199" to type "System.DateTime". Error: "String
+     | '1750261768.44199' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-User-Summary-Request.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750142986.09931" to type "System.DateTime". Error: "String
+     | '1750142986.09931' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1750142986.09931" to type "System.DateTime". Error: "String
+     | '1750142986.09931' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-1600kgの22.56%計算.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1749639290.27233" to type "System.DateTime". Error: "String
+     | '1749639290.27233' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1749639290.27233" to type "System.DateTime". Error: "String
+     | '1749639290.27233' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-岩井ファルマテック-業務内容.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1747283150.00409" to type "System.DateTime". Error: "String
+     | '1747283150.00409' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1747283150.00409" to type "System.DateTime". Error: "String
+     | '1747283150.00409' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-修正確認の依頼.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1745992133.37292" to type "System.DateTime". Error: "String
+     | '1745992133.37292' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1745992133.37292" to type "System.DateTime". Error: "String
+     | '1745992133.37292' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-設計変更による安全性確認.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1741927300.37143" to type "System.DateTime". Error: "String
+     | '1741927300.37143' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1741927300.37143" to type "System.DateTime". Error: "String
+     | '1741927300.37143' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-製品差異説明.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1745815273.70016" to type "System.DateTime". Error: "String
+     | '1745815273.70016' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1745815273.70016" to type "System.DateTime". Error: "String
+     | '1745815273.70016' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-製品検証結果の確認.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1744896547.78618" to type "System.DateTime". Error: "String
+     | '1744896547.78618' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1744896547.78618" to type "System.DateTime". Error: "String
+     | '1744896547.78618' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-職場監視カメラの是非.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1744819687.53196" to type "System.DateTime". Error: "String
+     | '1744819687.53196' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1744819687.53196" to type "System.DateTime". Error: "String
+     | '1744819687.53196' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-前田まき-歯科衛生士-合格.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1744814783.39527" to type "System.DateTime". Error: "String
+     | '1744814783.39527' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1744814783.39527" to type "System.DateTime". Error: "String
+     | '1744814783.39527' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-林ひなの-歯科衛生士-情報.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1742898355.38665" to type "System.DateTime". Error: "String
+     | '1742898355.38665' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1742898355.38665" to type "System.DateTime". Error: "String
+     | '1742898355.38665' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-やり取りの方針.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1742553622.22146" to type "System.DateTime". Error: "String
+     | '1742553622.22146' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1742553622.22146" to type "System.DateTime". Error: "String
+     | '1742553622.22146' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-iPhone-Webカメラアプリ.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1740734865.3279" to type "System.DateTime". Error: "String
+     | '1740734865.3279' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1740734865.3279" to type "System.DateTime". Error: "String
+     | '1740734865.3279' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-アシスタントリーダー辞退.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1733735786.67816" to type "System.DateTime". Error: "String
+     | '1733735786.67816' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1733735786.67816" to type "System.DateTime". Error: "String
+     | '1733735786.67816' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-文章の簡略化依頼.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1733198961.4934" to type "System.DateTime". Error: "String
+     | '1733198961.4934' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1733198961.4934" to type "System.DateTime". Error: "String
+     | '1733198961.4934' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ボーンファネルとボーンタンプの用途.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1732940777.50453" to type "System.DateTime". Error: "String
+     | '1732940777.50453' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1732940777.50453" to type "System.DateTime". Error: "String
+     | '1732940777.50453' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-アルマイト説明補足.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1732075201.68494" to type "System.DateTime". Error: "String
+     | '1732075201.68494' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1732075201.68494" to type "System.DateTime". Error: "String
+     | '1732075201.68494' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-文章添削依頼.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1731900297.26577" to type "System.DateTime". Error: "String
+     | '1731900297.26577' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1731900297.26577" to type "System.DateTime". Error: "String
+     | '1731900297.26577' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-GSC-Game-World-株購入.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1731543740.66926" to type "System.DateTime". Error: "String
+     | '1731543740.66926' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1731543740.66926" to type "System.DateTime". Error: "String
+     | '1731543740.66926' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-コロナ報告書提出方法.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1727780202.28452" to type "System.DateTime". Error: "String
+     | '1727780202.28452' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1727780202.28452" to type "System.DateTime". Error: "String
+     | '1727780202.28452' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-コミュニケーションの改善状況.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1725927050.58524" to type "System.DateTime". Error: "String
+     | '1725927050.58524' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1725927050.58524" to type "System.DateTime". Error: "String
+     | '1725927050.58524' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Request-for-Text-Editing.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1725507995.37316" to type "System.DateTime". Error: "String
+     | '1725507995.37316' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1725507995.37316" to type "System.DateTime". Error: "String
+     | '1725507995.37316' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-週4案件の実施困難.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1725249025.88033" to type "System.DateTime". Error: "String
+     | '1725249025.88033' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1725249025.88033" to type "System.DateTime". Error: "String
+     | '1725249025.88033' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-職場環境の問題相談.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1720398587.47309" to type "System.DateTime". Error: "String
+     | '1720398587.47309' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1720398587.47309" to type "System.DateTime". Error: "String
+     | '1720398587.47309' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Title-Article-Revision-Request.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1720159530.76963" to type "System.DateTime". Error: "String
+     | '1720159530.76963' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1720159530.76963" to type "System.DateTime". Error: "String
+     | '1720159530.76963' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-SolidWorksでラップをミラー.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1719389645.08896" to type "System.DateTime". Error: "String
+     | '1719389645.08896' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1719389645.08896" to type "System.DateTime". Error: "String
+     | '1719389645.08896' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Email添削お手伝い.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1718786284.19366" to type "System.DateTime". Error: "String
+     | '1718786284.19366' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1718786284.19366" to type "System.DateTime". Error: "String
+     | '1718786284.19366' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-AQL-6.5の不良率.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1718758750.8824" to type "System.DateTime". Error: "String
+     | '1718758750.8824' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1718758750.8824" to type "System.DateTime". Error: "String
+     | '1718758750.8824' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Article-Correction-Request.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1718693249.11649" to type "System.DateTime". Error: "String
+     | '1718693249.11649' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1718693249.11649" to type "System.DateTime". Error: "String
+     | '1718693249.11649' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Article-Check-and-Correction.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1717128885.8156" to type "System.DateTime". Error: "String
+     | '1717128885.8156' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1717128885.8156" to type "System.DateTime". Error: "String
+     | '1717128885.8156' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-SolidWorks-自動寸法挿入.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1716871786.2727" to type "System.DateTime". Error: "String
+     | '1716871786.2727' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1716871786.2727" to type "System.DateTime". Error: "String
+     | '1716871786.2727' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-メール添削リクエスト.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1715766175.44251" to type "System.DateTime". Error: "String
+     | '1715766175.44251' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1715766175.44251" to type "System.DateTime". Error: "String
+     | '1715766175.44251' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-SolidWorks板金から個体部品.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1707923898.82033" to type "System.DateTime". Error: "String
+     | '1707923898.82033' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1707923898.82033" to type "System.DateTime". Error: "String
+     | '1707923898.82033' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-untitled.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1707923352.8429" to type "System.DateTime". Error: "String
+     | '1707923352.8429' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1707923352.8429" to type "System.DateTime". Error: "String
+     | '1707923352.8429' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-New-chat.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1707923343.78701" to type "System.DateTime". Error: "String
+     | '1707923343.78701' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1707923343.78701" to type "System.DateTime". Error: "String
+     | '1707923343.78701' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-New-chat.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1706857949.14651" to type "System.DateTime". Error: "String
+     | '1706857949.14651' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1706857949.14651" to type "System.DateTime". Error: "String
+     | '1706857949.14651' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-メール添削リクエスト.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1706712177.24268" to type "System.DateTime". Error: "String
+     | '1706712177.24268' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1706712177.24268" to type "System.DateTime". Error: "String
+     | '1706712177.24268' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-New-chat.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1706243949.98909" to type "System.DateTime". Error: "String
+     | '1706243949.98909' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1706243949.98909" to type "System.DateTime". Error: "String
+     | '1706243949.98909' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-メール添削依頼.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1705894726.19564" to type "System.DateTime". Error: "String
+     | '1705894726.19564' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1705894726.19564" to type "System.DateTime". Error: "String
+     | '1705894726.19564' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-日本語非対応.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1705651923.7285" to type "System.DateTime". Error: "String
+     | '1705651923.7285' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1705651923.7285" to type "System.DateTime". Error: "String
+     | '1705651923.7285' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Text-improvement-assistance.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1703118101.54793" to type "System.DateTime". Error: "String
+     | '1703118101.54793' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1703118101.54793" to type "System.DateTime". Error: "String
+     | '1703118101.54793' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-User-Request-Clear-Explanation-Assistant-Response-Ready-to-Help.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1703054705.20455" to type "System.DateTime". Error: "String
+     | '1703054705.20455' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1703054705.20455" to type "System.DateTime". Error: "String
+     | '1703054705.20455' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-User-Request-Simplify-conversation-Assistant-Ready-to-assist.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702973484.46842" to type "System.DateTime". Error: "String
+     | '1702973484.46842' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702973484.46842" to type "System.DateTime". Error: "String
+     | '1702973484.46842' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Japanese-Text-Correction.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702971651.05527" to type "System.DateTime". Error: "String
+     | '1702971651.05527' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702971651.05527" to type "System.DateTime". Error: "String
+     | '1702971651.05527' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Editing-Help-Offered.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702971613.18786" to type "System.DateTime". Error: "String
+     | '1702971613.18786' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702971613.18786" to type "System.DateTime". Error: "String
+     | '1702971613.18786' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Email-Correction-Assistance.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702606067.0584" to type "System.DateTime". Error: "String
+     | '1702606067.0584' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702606067.0584" to type "System.DateTime". Error: "String
+     | '1702606067.0584' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Text-Correction-Offered.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702513163.2772" to type "System.DateTime". Error: "String
+     | '1702513163.2772' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702513163.2772" to type "System.DateTime". Error: "String
+     | '1702513163.2772' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Summarize-and-Improve.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702434134.89259" to type "System.DateTime". Error: "String
+     | '1702434134.89259' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702434134.89259" to type "System.DateTime". Error: "String
+     | '1702434134.89259' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Email-Correction-Offered.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702022460.33112" to type "System.DateTime". Error: "String
+     | '1702022460.33112' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1702022460.33112" to type "System.DateTime". Error: "String
+     | '1702022460.33112' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-メール添削リクエスト.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1701931121.25587" to type "System.DateTime". Error: "String
+     | '1701931121.25587' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1701931121.25587" to type "System.DateTime". Error: "String
+     | '1701931121.25587' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Article-Correction-Request.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1701754974.49267" to type "System.DateTime". Error: "String
+     | '1701754974.49267' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1701754974.49267" to type "System.DateTime". Error: "String
+     | '1701754974.49267' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-修正依頼：議事録.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1701672538.30973" to type "System.DateTime". Error: "String
+     | '1701672538.30973' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1701672538.30973" to type "System.DateTime". Error: "String
+     | '1701672538.30973' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Email-Correction-Assistance.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699942208.10758" to type "System.DateTime". Error: "String
+     | '1699942208.10758' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699942208.10758" to type "System.DateTime". Error: "String
+     | '1699942208.10758' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-メール添削依頼.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699867394.06357" to type "System.DateTime". Error: "String
+     | '1699867394.06357' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699867394.06357" to type "System.DateTime". Error: "String
+     | '1699867394.06357' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-シンプル化した記事.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699841522.6813" to type "System.DateTime". Error: "String
+     | '1699841522.6813' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699841522.6813" to type "System.DateTime". Error: "String
+     | '1699841522.6813' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-文章の要約.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699606926.24872" to type "System.DateTime". Error: "String
+     | '1699606926.24872' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699606926.24872" to type "System.DateTime". Error: "String
+     | '1699606926.24872' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-履歴の種類.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699594204.33174" to type "System.DateTime". Error: "String
+     | '1699594204.33174' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699594204.33174" to type "System.DateTime". Error: "String
+     | '1699594204.33174' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-メール添削リクエスト.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699190156.89296" to type "System.DateTime". Error: "String
+     | '1699190156.89296' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699190156.89296" to type "System.DateTime". Error: "String
+     | '1699190156.89296' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Title-Summarize-Conversation,-1-4-Words.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699190104.6772" to type "System.DateTime". Error: "String
+     | '1699190104.6772' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699190104.6772" to type "System.DateTime". Error: "String
+     | '1699190104.6772' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-記事要題未指定.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699189916.55103" to type "System.DateTime". Error: "String
+     | '1699189916.55103' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699189916.55103" to type "System.DateTime". Error: "String
+     | '1699189916.55103' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-要求と回答.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699186704.61344" to type "System.DateTime". Error: "String
+     | '1699186704.61344' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1699186704.61344" to type "System.DateTime". Error: "String
+     | '1699186704.61344' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-Sophisticated-Coffee-Shop-Names.md
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:44
+Line |
+  44 |               (Get-Date $conv.create_time).ToString("yyyyMMdd")
+     |                         ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1696457749.85846" to type "System.DateTime". Error: "String
+     | '1696457749.85846' was not recognized as a valid DateTime."
+Get-Date: C:\Users\hiroy\Downloads\gpt_project_setup\ChatGPT_Export2MD.ps1:64
+Line |
+  64 |      "date: " + (Get-Date $conv.create_time -Format "yyyy-MM-dd HH:mm" …
+     |                           ~~~~~~~~~~~~~~~~~
+     | Cannot bind parameter 'Date'. Cannot convert value "1696457749.85846" to type "System.DateTime". Error: "String
+     | '1696457749.85846' was not recognized as a valid DateTime."
+Created: C:\Users\hiroy\Desktop\project-root\docs\-ユーザーリクエストへの応答.md
+Done.
+[ OK ] 変換完了

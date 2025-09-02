@@ -1,0 +1,73 @@
+// File: viewer/src/TwinLeaf/MainWindow.xaml.cs
+using System;
+using System.Collections.ObjectModel;
+using System.Windows;
+using Microsoft.Web.WebView2.Core;
+using TwinLeaf.Utils;
+
+namespace TwinLeaf
+{
+    public partial class MainWindow : Window
+    {
+        public ObservableCollection<string> LogLines { get; } = Logger.UiLines;
+
+        public MainWindow()
+        {
+            InitializeComponent();
+
+            DataContext = this;
+
+            Logger.Init("TwinLeaf", maxUiLines: 5000);
+            Logger.Info("MainWindow ctor");
+
+            this.Loaded += async (_, __) =>
+            {
+                using (Logger.Measure("InitWebView"))
+                {
+                    try
+                    {
+                        await InitWebViewAsync();
+                        Logger.Info("InitWebView ok");
+                    }
+                    catch (Exception ex)
+                    {
+                        Logger.Error("InitWebView failed: {0}", ex);
+                    }
+                }
+            };
+
+            this.Closed += (_, __) => Logger.Info("MainWindow closed");
+        }
+
+        private async System.Threading.Tasks.Task InitWebViewAsync()
+        {
+            // 既存の WebView2 初期化に差し込む想定
+            // 例: 環境オプションは App.xaml.cs で生成 → 注入、でも可
+
+            // イベントハンドラで計測/ログ
+            WebView.CoreWebView2InitializationCompleted += (_, e) =>
+            {
+                Logger.Info("CoreWebView2InitializationCompleted success={0}", e.IsSuccess);
+            };
+
+            WebView.NavigationStarting += (_, e) =>
+            {
+                Logger.Info("NavStart: {0}", e.Uri);
+            };
+            WebView.NavigationCompleted += (_, e) =>
+            {
+                Logger.Info("NavDone: success={0} err={1}", e.IsSuccess, e.WebErrorStatus);
+            };
+
+            // 既存の EnsureCoreWebView2Async() 等に合流
+            await WebView.EnsureCoreWebView2Async();
+        }
+
+        // 既存のパイプ/単一インスタンスハンドラがある場合そこに追記
+        public void HandlePipeMessage(string msg)
+        {
+            Logger.Info("Pipe: {0}", msg);
+            // 既存ロジック...
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <!-- DLLではなくEXEを生成し、黒窓を消す -->
+    <OutputType>WinExe</OutputType>
+    <!-- WPFを有効化 -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <!-- 実行ファイル名を指定 -->
+    <AssemblyName>TwinLeaf</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TwinLeaf</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.*" />
+  </ItemGroup>
+  <Target Name="KillRunningTwinLeaf" BeforeTargets="Build">
+    <Exec Command="powershell -NoProfile -ExecutionPolicy Bypass -Command ^&#xA;  &quot;$exe = Join-Path \&quot;$(MSBuildProjectDirectory)\&quot; \&quot;bin\\$(Configuration)\\$(TargetFramework)\\TwinLeaf.exe\&quot;; ^&#xA;    $exists = Test-Path $exe; ^&#xA;    $p = Get-Process TwinLeaf -ErrorAction SilentlyContinue; ^&#xA;    if($p){ ^&#xA;      if($exists){ Start-Process -FilePath $exe -ArgumentList '--exit' -WindowStyle Hidden }; ^&#xA;      $deadline = (Get-Date).AddSeconds(12); ^&#xA;      while((Get-Process TwinLeaf -ErrorAction SilentlyContinue) -and (Get-Date) -lt $deadline){ Start-Sleep -Milliseconds 300 }; ^&#xA;      if(Get-Process TwinLeaf -ErrorAction SilentlyContinue){ ^&#xA;        taskkill /IM TwinLeaf.exe /F /T &gt;$null 2&gt;&amp;1; ^&#xA;        $deadline2 = (Get-Date).AddSeconds(5); ^&#xA;        while((Get-Process TwinLeaf -ErrorAction SilentlyContinue) -and (Get-Date) -lt $deadline2){ Start-Sleep -Milliseconds 200 } ^&#xA;      } ^&#xA;      # --- ファイルロックの解放確認（プローブ） ---&#xA;      if($exists){ ^&#xA;        $ok = $false; $until = (Get-Date).AddSeconds(5); ^&#xA;        while(-not $ok -and (Get-Date) -lt $until){ ^&#xA;          try{ $fs=[System.IO.File]::Open($exe,[System.IO.FileMode]::Open,[System.IO.FileAccess]::Read,[System.IO.FileShare]::None); $fs.Close(); $ok=$true } ^&#xA;          catch{ Start-Sleep -Milliseconds 200 } ^&#xA;        } ^&#xA;      } ^&#xA;    }; ^&#xA;    exit 0&quot;" ContinueOnError="true" />
+  </Target>
+</Project>

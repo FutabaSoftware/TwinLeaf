@@ -1,0 +1,4 @@
+# zundamon/src/README.todo
+# MVP: ストリーミングTTS（40–80ms）+ 先読み2拍 + OBS最小配線
+# 優先：体感遅延 150–250ms を満たす最小構成
+

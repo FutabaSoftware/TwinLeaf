@@ -1,0 +1,131 @@
+import argparse, datetime, os, re, sys, tempfile
+from pathlib import Path
+from difflib import unified_diff
+
+ROOT   = Path(__file__).resolve().parent.parent
+DOCS   = ROOT / "docs"
+LOGS   = ROOT / "logs"
+DOCS.mkdir(parents=True, exist_ok=True)
+LOGS.mkdir(parents=True, exist_ok=True)
+
+def existing_versions():
+    nums = []
+    for p in DOCS.glob("rules_v*.md"):
+        m = re.search(r"rules_v(\d+)\.md$", p.name, re.I)
+        if m:
+            try: nums.append((int(m.group(1)), p))
+            except ValueError: pass
+    nums.sort(key=lambda t: t[0])
+    return nums
+
+def next_tag():
+    ex = existing_versions()
+    nxt = (ex[-1][0] + 1) if ex else 1
+    return f"v{nxt:03d}", (ex[-1][1] if ex else None)
+
+TEMPLATE_HEADER = """# ChatGPT 運用ルール（公開版）
+バージョン: {ver} / 最終更新日: {date}
+
+## 目的
+プログラミング初心者が、**最小の手動で最大の成果**を得るために、ChatGPT と自動化を活用して効率よく高品質な成果物を作る。
+
+## 基本原則
+- **結論 → 根拠 → 次の手** で簡潔に回答
+- 指示が曖昧でも **合理的に推測** し、**最小限の質問**
+- まず **MVP**（動く最小）を出し、**改善ループ**で磨く
+- 公開想定：**機密情報は含めない**
+
+## 依頼の出し方（推奨）
+- 目的／読者／制約（文字数・形式・期日）／参考資料を簡潔に
+- 不足があっても **仮置き**。Yes/No で潰せる質問だけ返す
+
+## 出力ルール
+- 納品は **コピペ可能な Markdown**（文書／表／コード／コマンド）
+- Windows 前提：**PowerShell優先**、必要に応じてbash併記
+- 破壊的操作（削除・上書き・公開）は **実行前に明示** して同意
+
+## 実行方法
+- **基本**：Python は `run.ps1` 経由（venv/依存/再現性を担保）
+- **ショートカット運用**：デスクトップからダブルクリックで実行可
+- **Enter 待ち制御**：`isatty()` で対話端末のみ待機。自動実行では待たない
+- **依存の追加**：`requirements.txt` 追記 → `scripts\\setup_env.py` で整備
+- **ログ**：`project-root\\logs\\` に統一
+
+## 思想（v004 以降の常設）
+- **作らない勇気**：要件を削り、最小の道具で最速に価値を出す
+- **舗装路（Paved Road）**：推奨の手順・テンプレ・実行器で学習コスト＆ミス最小化
+- **BML（Build–Measure–Learn）**：小さく作り、測り、学んで次へ
+- **恒久対策テンプレ**
+  - 事象：
+  - 原因：
+  - 恒久策：
+  - 再発防止チェック：
+"""
+
+def build_content(ver, summary, details):
+    today = datetime.date.today().strftime("%Y-%m-%d")
+    body = TEMPLATE_HEADER.format(ver=ver, date=today)
+    body += f"\n## 今回の変更（{ver}）\n{summary.strip()}\n"
+    if details and details.strip():
+        body += f"\n### 詳細\n{details.strip()}\n"
+    # changelog（概要）
+    oneline = " ".join([s for s in summary.splitlines() if s.strip()])
+    body += f'\n## 変更履歴（概要）\n- {ver}（{today}）: {oneline}\n'
+    return body
+
+def atomic_write(path: Path, text: str):
+    tmp_fd, tmp = tempfile.mkstemp(prefix=path.name, dir=str(path.parent))
+    with os.fdopen(tmp_fd, "w", encoding="utf-8", newline="\r\n") as f:
+        f.write(text)
+    os.replace(tmp, path)
+
+def update_index():
+    rows = ["# ルール版一覧", "", "| 版 | 日付 | パス |", "|---:|:---|:---|"]
+    versions = existing_versions()[::-1]
+    for num, p in versions:
+        txt = p.read_text(encoding="utf-8", errors="ignore")
+        m = re.search(r"最終更新日:\s*(\d{4}-\d{2}-\d{2})", txt)
+        date = m.group(1) if m else ""
+        rows.append(f"| v{num:03d} | {date} | {p} |")
+    atomic_write(DOCS / "rules_index.md", "\n".join(rows))
+
+def show_diff(old: Path, new_text: str):
+    old_text = old.read_text(encoding="utf-8", errors="ignore").splitlines(True) if old and old.exists() else []
+    new_lines = new_text.splitlines(True)
+    diff = unified_diff(old_text, new_lines, fromfile=str(old) if old else "N/A", tofile="(new)")
+    out = "".join(diff)
+    if not out:
+        print("[INFO] 差分はありません。")
+    else:
+        print(out)
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--summary", required=True)
+    ap.add_argument("--details", default="")
+    ap.add_argument("--diff-only", action="store_true")
+    ap.add_argument("--rollback", action="store_true")
+    args = ap.parse_args()
+
+    ver, prev = next_tag()
+    content = build_content(ver, args.summary, args.details)
+
+    if args.diff_only:
+        print(f"[DRY-RUN] {ver} をプレビューします（保存しません）。")
+        if prev: show_diff(prev, content)
+        else: print("[INFO] 既存が無いのでプレビューのみ表示。"); print(content)
+        return 0
+
+    # 本番保存
+    out = DOCS / f"rules_{ver}.md"
+    atomic_write(out, content)
+    atomic_write(DOCS / "rules_latest.md", content)
+    update_index()
+    # ログ
+    with open(LOGS / "rules_updates.log", "a", encoding="utf-8", newline="\r\n") as f:
+        f.write(f"[OK] 出力: {out}\n")
+    print(f"[DONE] {ver} を生成しました。")
+    return 0
+
+if __name__ == "__main__":
+    sys.exit(main())

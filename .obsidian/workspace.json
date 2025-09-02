@@ -1,0 +1,211 @@
+{
+  "main": {
+    "id": "7a6ab04a98e0a29b",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a31753caa18c298",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bfcde3295f57f56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/rules_v021.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "rules_v021"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "35caa1c28dd655ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fec790144e9bb2e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "94d75d3023be92ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "ファイルエクスプローラ"
+            }
+          },
+          {
+            "id": "08a958a9d83d8a5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "ガイド",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "検索"
+            }
+          },
+          {
+            "id": "d0a3f9e79f66af08",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "ブックマーク"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5d52917b4411428a",
+    "type": "split",
+    "children": [
+      {
+        "id": "84fa62644663ea7a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e69d290bed03d83a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/無題のファイル.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "無題のファイルへのバックリンク"
+            }
+          },
+          {
+            "id": "207073aef15afacf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/無題のファイル.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "無題のファイルからのアウトゴーイングリンク"
+            }
+          },
+          {
+            "id": "7231819a33588334",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "タグ"
+            }
+          },
+          {
+            "id": "265c02d8ff52d752",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/無題のファイル.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "無題のファイルのアウトライン"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:クイックスイッチャーを開く": false,
+      "graph:グラフビューを開く": false,
+      "canvas:新規キャンバスを作成": false,
+      "daily-notes:今日のデイリーノートを開く": false,
+      "templates:テンプレートを挿入": false,
+      "command-palette:コマンドパレットを開く": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "2bfcde3295f57f56",
+  "lastOpenFiles": [
+    "docs/引き継ぎガイド.md",
+    "docs/rules_v013.md",
+    "logs/Update-Rules_20250831_094243.log",
+    "logs/Update-Rules_20250831_094230.log",
+    "docs/introtemplate.md",
+    "docs/rules_v014.md",
+    "logs/Update-Rules_20250831_094049.log",
+    "logs/Update-Rules_20250831_093945.log",
+    "scripts/update_rules.py.bak",
+    "logs/run_20250831_090002.log",
+    "index.md",
+    "docs/ルール版一覧.md",
+    "docs/rules_index.md",
+    "logs/Update-Rules_20250831_083636.log",
+    "logs/Update-Rules_20250831_083115.log",
+    "docs/rules_v012.md",
+    "docs/rules_v011.md",
+    "docs/rules.md",
+    "docs/index.md",
+    "docs/rules_v010.md",
+    "docs/rules_v007.md",
+    "docs/rules_v008.md",
+    "docs/rules_v006.md",
+    "scripts/Update-Rules.ps1",
+    "docs/rules_v005.md",
+    "scripts/update_rules.py",
+    "docs/rules_latest.md",
+    "scripts/docs/rules_index.md",
+    "scripts/docs/rules_latest.md",
+    "scripts/docs/rules_v001.md",
+    "docs/rules_v004.md",
+    "docs/rules_v003.md",
+    "docs/ChatGPT 運用ルール（公開版）.md",
+    "docs/20250830-ChatGPT-project-rule-v004.md",
+    "docs/20250830-画像コピペ範囲の不具合.md",
+    "docs/20250829-ルール保存方法提案.md"
+  ]
+}

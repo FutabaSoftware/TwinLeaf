@@ -1,0 +1,7 @@
+C:\Users\hiroy\Desktop\project-root\publish\TwinLeaf_0.1.0-beta\bin\TwinLeaf.pdb
+C:\Users\hiroy\Desktop\project-root\publish\TwinLeaf_0.1.0-beta\bin\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\hiroy\Desktop\project-root\publish\TwinLeaf_0.1.0-beta\bin\WebView2Loader.dll
+C:\Users\hiroy\Desktop\project-root\publish\TwinLeaf_0.1.0-beta\bin\Microsoft.Web.WebView2.Core.xml
+C:\Users\hiroy\Desktop\project-root\publish\TwinLeaf_0.1.0-beta\bin\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\hiroy\Desktop\project-root\publish\TwinLeaf_0.1.0-beta\bin\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\hiroy\Desktop\project-root\publish\TwinLeaf_0.1.0-beta\bin\TwinLeaf.exe

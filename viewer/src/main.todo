@@ -1,0 +1,4 @@
+// viewer/src/main.todo
+// ここから：UI技術選定（.NET WinUI / WPF / Electron）を決める
+// MVP: WebView2 埋め込み + 安定フラグ切替 + 再起動ボタン + 簡易ログ
+

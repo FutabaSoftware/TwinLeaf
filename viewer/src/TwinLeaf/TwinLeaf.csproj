@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <!-- DLLではなくEXEを生成し、黒窓を消す -->
+    <OutputType>WinExe</OutputType>
+    <!-- WPFを有効化 -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <!-- 実行ファイル名を指定 -->
+    <AssemblyName>TwinLeaf</AssemblyName>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TwinLeaf</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.*" />
+  </ItemGroup>
+  <Target Name="KillRunningTwinLeaf" BeforeTargets="Build">
+    <Exec Command="cmd /c (tasklist /FI &quot;IMAGENAME eq TwinLeaf.exe&quot; | find /I &quot;TwinLeaf.exe&quot; &gt;nul) &amp;&amp; (taskkill /IM TwinLeaf.exe /F /T &gt;nul 2&gt;&amp;1) &amp; exit /b 0" ContinueOnError="true" />
+  </Target>
+</Project>
